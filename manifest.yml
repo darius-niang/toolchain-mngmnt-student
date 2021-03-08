@@ -3,3 +3,5 @@ applications:
  - name: toolchain-mngmnt-student
    random-route: true
    memory: 64M
+   buildpacks:
+    - https://github.com/cloudfoundry/php-buildpack
